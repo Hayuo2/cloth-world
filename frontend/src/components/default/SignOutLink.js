@@ -35,7 +35,7 @@ export default function SignOutLink() {
                 <div className="custom-modal--content">
                   <div className="modal-content">
                     <strong>Are you sure to log out?</strong>
-                    <div>
+                    <div className = "sign-out">
                       <button
                         className="custom-btn mr-1 pl-6 pr-6"
                         onClick={(e) => {

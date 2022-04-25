@@ -397,6 +397,9 @@ span.error-text {
   .custom-modal--container {
     max-width: 270px;
   }
+  li {
+    margin: 0;
+  }
 
   .modal-content strong {
     font-size: 16px;
@@ -770,9 +773,7 @@ ul.container {
   margin: 20px;
   list-style-type: none;
 }
-li {
-  margin: 35px;
-}
+
 
 /************** Thank you **********************/
 h1#thankyouHeading {
@@ -847,6 +848,9 @@ h1#thankyouHeading {
   .shipping {
     margin: 40px;
     width: 100%;
+  }
+  img.logo {
+    width: 50px;
   }
 
   .topnav {
